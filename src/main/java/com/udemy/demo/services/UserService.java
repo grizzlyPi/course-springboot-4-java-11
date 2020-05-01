@@ -60,6 +60,7 @@ public class UserService {
 	private void updatadata(User entity, User user) {
 		entity.setName(user.getName());
 		entity.setEmail(user.getEmail());
-		entity.setPhone(user.getPhone());		
+		entity.setPhone(user.getPhone());
+		entity.setPassword(user.getPassword());
 	}
 }
